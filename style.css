@@ -1,0 +1,378 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+
+	height: 100vh;
+
+
+}
+
+header {
+	background: white;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: pink;
+
+}
+
+.banner {
+
+	width: 100%;
+
+}
+
+h2 {
+
+	color: blue;
+	font-size: 20px;
+
+}
+
+
+
+strong {
+
+	color: red;
+
+}
+
+main {
+	background: rgba(255, 255, 255, 0.516);
+	height: 500px;
+	width: 100%;
+	
+}
+
+.principal {
+
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	height: 400px;
+	margin: 0 auto;
+
+	
+
+
+}
+.principal p {
+	margin: 0 0 1em;
+}
+
+
+.imagem4 {
+   
+	float: right;    
+	width: 300px;
+	margin-top: -80px;
+
+}
+
+p{
+
+	font-size: 20px;
+}
+
+
+
+footer {
+	text-align: center;
+	padding: 40px 0;
+}
+
+
+
+@media screen and (max-width: 980px) {
+	.caixa, .principal .input-padrao, form, .Botao {
+		width: auto;
+	}
+
+	h1, .Titulo-produtos {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.imagem4 {
+
+		
+		width: 100%;
+		margin-top: 10px;
+		
+
+
+	}
+
+	main{
+
+     height: 800px;
+	
+	}
+
+
+	footer{
+    margin-top: 20px;
+
+
+	}
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+	.caixa,
+	.principal, .redessociais, .p3, .p4{
+		width: auto;
+	}
+
+	h1, .Titulo-produtos {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.imagem4 {
+		
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	main{
+
+     height: 1000px;
+	 width: 100%;
+	
+	}
+
+	h2{
+		padding: 10px;
+	}
+
+	p{
+
+   padding: 20px;
+
+	}
+
+
+	footer{
+    margin-top: 20px;
+
+
+	}
+	.Botao, .p3, .p4 {
+
+		width: 100%;
+		
+		
+		
+	}
+
+	
+	
+}
+
+/*contato*/
+
+form {
+	margin: 40px 0;
+	
+}
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.Botao{
+
+width: 300px;
+height: 50px;
+
+}
+
+.redessociais{
+
+	border: 2px solid white;
+	padding: 10px;
+	
+}
+
+
+.p3{
+	margin-left: 60px;
+	margin-top: -30px;
+
+}
+.p4{
+	margin-left: 60px;
+	margin-top: -30px;
+	
+}
+
+.contato-main{
+
+	height: 900px;
+}
+
+.nossasredessociais{
+
+padding: 10px;
+
+}
+
+@media screen and (max-width: 980px) {
+
+
+	.input-padrao {
+		display: block;
+		margin: 0 0 20px;
+		padding: 10px 25px;
+		width: 100%;
+	}
+
+	.Botao{
+
+		width: 340px;
+		height: 50px;
+		
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+	.input-padrao {
+		display: block;
+		margin: 0 0 20px;
+		padding: 10px 25px;
+		width: 110%;
+	}
+
+	.Botao{
+
+		width: 110%;
+		height: 50px;
+		
+	}
+
+}
+
+/*produtos*/
+
+.Produtos{
+
+	height: 700px;
+
+}
+
+.Titulo-produtos{
+
+padding: 20px;
+
+
+}
+
+.baixo1{
+
+	
+	margin-top: 20px;
+}
+
+div.gallery {
+	border: 1px solid pink;
+	
+	
+  }
+  
+  div.gallery:hover {
+	border: 1px solid red;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+	color: red;
+  }
+  
+  * {
+	box-sizing: border-box;
+	padding: 20px;
+	
+	
+  }
+  
+  .responsive {
+	padding: 0 6px;
+	padding: 10px;
+	float: left;
+	width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+	.responsive {
+	  width: 49.99999%;
+	  margin: 6px 0;
+	}
+  }
+  
+  @media only screen and (max-width: 500px) {
+	.responsive {
+	  width: 100%;
+	}
+  }
+  
+  .clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+
+
